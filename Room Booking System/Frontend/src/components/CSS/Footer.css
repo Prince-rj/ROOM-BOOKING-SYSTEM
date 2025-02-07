@@ -1,0 +1,13 @@
+#footer{
+    position:fixed;
+    /* right: 0px; */
+    bottom: 0px;
+    z-index: 1;
+    display: flex;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #4a90e2;
+    
+    height: 5vh;
+}

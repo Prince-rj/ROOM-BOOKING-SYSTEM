@@ -1,0 +1,140 @@
+    .profile-cards-container {
+        padding:30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        margin: 0 auto;
+        border:2px solid #cec7c7;
+        border-radius: 12px;
+        max-width: 95%; 
+        gap:15px;
+    }
+    
+    .profile-cards-row {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        align-items: center;
+        gap:25px;
+        margin-bottom: 20px; 
+    }
+    
+    
+    .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: calc(25% - 20px); 
+        margin-right: 20px; 
+    }
+    
+    .card:last-child {
+        margin-right: 0;
+    }
+    
+  
+    .card-name {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .card-address {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 5px;
+    }
+    
+    .card-price {
+        font-size: 16px;
+        font-weight: bold;
+        color: #007bff;
+    }
+    
+
+    
+    #profile-container {
+        display: flex;
+        align-items: center;
+        gap:40px;
+    }
+    
+    
+    #profile-img {
+        margin-right: 20px;
+        border:2px solid #252424;
+        padding: 50px;
+        margin: 30px;
+        margin-left: 50px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: #d7e8fc;
+    }
+    
+   
+    #profile-details {
+        font-size:25px;
+        margin:50px;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        
+        padding:30px;
+        border-radius: 12px;
+        min-width:20%;
+        align-self: flex-start;
+    }
+    
+    
+    .profile-details-div{
+        display: flex;
+        font-weight: bold;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+    #profile-name {
+        
+        font-size: 60px;
+    }
+    
+    
+    #profile-email {
+        color: #3d3d3d;
+        
+    }
+    
+    #listings{
+        font-size: 42px;
+        color: #3d3d3d;
+    }
+
+
+
+#logout-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #77b5fc; 
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  #logout-btn:hover {
+    background-color: #4881c2;
+    transform: translateY(-2px);
+  }
+  
+  #logout-btn:active {
+    transform: translateY(1px);
+    box-shadow: none;
+  }
+  
+  
+  

@@ -1,0 +1,53 @@
+.lodging-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 95%; 
+    gap:15px;
+  }
+  
+  .lodging-cards-row {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    gap:25px;
+    margin-bottom: 20px; 
+  }
+  
+ 
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(25% - 20px); 
+    margin-right: 20px; 
+  }
+  
+  .card:last-child {
+    margin-right: 0;
+  }
+  
+  
+  .card-name {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .card-address {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .card-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  

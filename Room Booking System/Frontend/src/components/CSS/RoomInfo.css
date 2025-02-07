@@ -1,0 +1,143 @@
+#room-photo{
+    max-width: 60%;
+    border-radius: 12px;
+    
+}
+.room-info-total{
+    margin-bottom: 10px;
+}
+#room-info-image{
+    border-radius: 12px;
+    padding:10px;
+}
+#room-info-details{
+    display:flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap:10px;
+    min-width: 30%;
+}
+#room-info{
+    display:flex;
+    flex-direction: row;
+    max-width: 100%;
+    gap:20px;
+    
+}
+
+#name{
+    font-size: 40px;
+    font-weight: 650;
+}
+
+#Booking-details{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(207, 206, 206);
+    border-radius: 12px;
+    height: 120px;
+    max-width: 65%;
+    
+    padding: 15px;
+}
+#Booking-details button{
+    margin-top: 18px;
+    cursor:pointer;
+}
+
+#Address{
+    font-size: 20px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+#Address{
+    margin-bottom: 10px;
+}
+#room-container{
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #5a5959;
+    border-radius: 18px;
+}
+
+#description{
+    padding: 12px;  
+    font-size: 25px;
+    margin-top: 15px;
+    /* min-width: 50%; */
+    max-width: 60%;
+    font-family: "Roboto", "Arial", sans-serif;
+    line-height: 2rem;
+    font-weight: 400;
+    background-color: #aaaaaa18;
+    min-height: 320px;
+    border-radius: 8px;
+}
+#description:hover{
+    font-size: 1.4rem;
+    padding: 12px;  
+    font-size: 25px;
+    margin-top: 15px;
+    /* min-width: 50%; */
+    max-width: 60%;
+    min-height: 320px;
+    background-color: #bbbbbb3e;
+}
+#description div{
+
+    font-size: 18px;
+    margin-top: 16px;
+    /* text-align: justify; */
+
+}
+
+
+#room-profile-image{
+    background-color: white;
+    border-radius: 50%;
+    padding:5px;
+}
+
+#owner-info-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* justify-content:flex-start; */
+    gap:70px;
+}
+#profile-info{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    max-width: 40%;
+    gap: 20px;
+    min-width: 20%;
+    height: 100px;
+    padding:13px;
+    justify-content:center;
+    
+    border-radius: 12px;
+}
+#profile-info-img{
+    padding:12px;
+    border-radius: 12px;
+    width: 80%;
+    background-color: #caa5a5;
+    display: flex;
+    gap:12px;
+    cursor:pointer;
+}
+#room-profile-name{
+    align-self: center;
+}
+
+#btn-id{
+    border: #caa5a5;
+    background-color: #caa5a5;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+}

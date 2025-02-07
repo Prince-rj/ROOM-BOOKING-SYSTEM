@@ -1,0 +1,85 @@
+#register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #register-name,
+  #email,
+  #password,
+  #cnf-password {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #in-name,
+  #in-email,
+  #in-password,
+  #in-cnf-password {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border:none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  #incorrect-in-cnf-password{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border:none;
+    border: 1px solid #f77d7d;
+    border-radius: 4px;
+  }
+  #submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #submit:hover {
+    background-color: #0056b3;
+  }
+  
+  #existing-user,
+  #register-new-user {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  #existing-user-btn,
+  #register-new-user-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  #existing-user-btn:hover,
+  #register-new-user-btn:hover {
+    text-decoration: underline;
+  }
+  
+  #register-with {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  #register-with img {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  

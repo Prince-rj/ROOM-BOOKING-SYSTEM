@@ -1,0 +1,88 @@
+
+#add-room-form {
+    max-width: 80vw;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #d1d4d6;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#add-room-header {
+    text-align: center;
+    font-size: 40px;
+}
+
+#upload-image-label,
+#room-type-label,
+#room-description-label,
+#room-price-label,
+#room-address-label,
+#room-name-label,
+#user-name-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.input-room {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+
+.input-room-radio {
+    margin-right: 8px;
+    margin-left: 10px;
+}
+
+
+#room-submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+#room-submit-btn:hover {
+    background-color: #0056b3;
+}
+
+
+#room-type-label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #add-room-form {
+        max-width: 90vw;
+        padding: 15px;
+    }
+
+    #add-room-header {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #add-room-form {
+        max-width: 100vw;
+        padding: 10px;
+    }
+
+    #add-room-header {
+        font-size: 25px;
+    }
+}
+
