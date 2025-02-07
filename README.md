@@ -70,12 +70,10 @@ Ensure you have the following installed on your system:
 4. **Manage Reservations (Modify/Cancel)**
 5. **Admin Dashboard Access (For Admins)**
 
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 **Prince Raj**  
-📧 [Email](mailto:your-email@example.com)  
+📧 [Email](princerajkun@gmail.com)  
 🌍 [GitHub](https://github.com/Prince-rj)
 
 ## 🤝 Contributing
